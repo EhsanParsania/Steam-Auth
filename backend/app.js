@@ -5,7 +5,7 @@ var passportSteam = require('passport-steam');
 var SteamStrategy = passportSteam.Strategy;
 var app = express();
 
-var port = 3000;
+var port = 7069;
 
 // Required to get data from user for sessions
 passport.serializeUser((user, done) => {
