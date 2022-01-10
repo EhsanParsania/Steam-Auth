@@ -4,5 +4,8 @@
     "express-session": "^1.17.2",
     "passport": "^0.5.2",
     "passport-steam": "^1.0.17"
+  },
+  "devDependencies": {
+     "nodemon": "^2.0.15"
   }
 }
