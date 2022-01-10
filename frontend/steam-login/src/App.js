@@ -1,22 +1,23 @@
 import './App.css';
-
+import SteamLoginIcon from './assets/login-steam.png'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-         Login with Steam
-        </p>
-        <a
-          className="App-link"
-          href="http://localhost:7069/api/auth/steam"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         Login with Steam
-        </a>
-      </header>
+      <main className="App-header">
+        <div className="steam-container">
+          <h3>
+            Login with Steam
+          </h3>
+          <a
+            className="App-link"
+            href="http://localhost:7069/api/auth/steam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={SteamLoginIcon} alt="Steam Login" />
+          </a>
+        </div>
+      </main>
     </div>
   );
 }
