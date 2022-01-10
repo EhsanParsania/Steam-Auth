@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export  {App};
+export { App };
