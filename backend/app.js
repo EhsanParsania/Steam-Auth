@@ -48,7 +48,9 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
+	// SEND USER DATA TO YOUR DATA BASE HERE
 	res.send(req.user);
+	console.log(req.user)
 });
 
 // Routes
